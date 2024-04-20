@@ -788,7 +788,7 @@ footer .flex {
 
   .btn-Saiba button {
   
-      margin-left: 100px;
+      display: none;
   }
 
   .sc button {
@@ -825,57 +825,6 @@ footer .flex {
   
 }
 
-
-@media (max-width: 1200px) {
-  /* Menu de Fechamento */
-  .btn-Fechar {
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%); 
-    background-color: #000000;
-    height: 100%;
-    width: 0;
-    overflow: hidden;
-    z-index: 99999999;
-    transition: .2s;
-  }
-
-  .btn-Fechar.open {
-    width: 100%; 
-    overflow: auto;
-  }
-
-  .btn-Fechar nav a {
-    color: #fff;
-    font-size: 9px !important;
-    font-weight: 400;
-  }
-
-  .btn-Fechar nav ul {
-    padding: 0;
-    text-align: center;
-  }
-
-  .btn-Fechar nav ul li a:hover {
-    color: #b5aad2;
-    font-weight: 400;
-  }
-
-  .btn-Fechar .btn-cls {
-    padding: 20px 4%;
-    overflow: hidden;
-  }
-
-  .btn-Fechar .btn-cls i {
-    color: #8a009a;
-    font-size: 9px;
-    margin-top: 10px;
-    cursor: pointer;
-  }
-}
-
-
-  
 
 
 /* PÁGINA 2 */
